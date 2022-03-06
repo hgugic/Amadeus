@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="11.0.0" />
+    <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="10.0.1" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\AmadeusScanner.Common\AmadeusScanner.Common.csproj" />
+    <ProjectReference Include="..\AmadeusScanner.Model.Common\AmadeusScanner.Model.Common.csproj" />
+    <ProjectReference Include="..\AmadeusScanner.Model\AmadeusScanner.Model.csproj" />
+    <ProjectReference Include="..\AmadeusScanner.Repository.Common\AmadeusScanner.Repository.Common.csproj" />
+    <ProjectReference Include="..\AmadeusScanner.Repository\AmadeusScanner.Repository.csproj" />
+    <ProjectReference Include="..\AmadeusScanner.Service.Common\AmadeusScanner.Service.Common.csproj" />
+  </ItemGroup>
+
+</Project>

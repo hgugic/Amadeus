@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\AmadeusScanner.Model.Common\AmadeusScanner.Model.Common.csproj" />
+    <ProjectReference Include="..\AmadeusScanner.Model\AmadeusScanner.Model.csproj" />
+  </ItemGroup>
+
+</Project>
